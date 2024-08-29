@@ -39,9 +39,24 @@ extends Node3D
 @onready var a = $A
 @onready var b = $B
 
+# YLabels
+@onready var y_labels_side_offset = -5
+@onready var y_label_spacing = y_size/float(subdivision.y)
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
-		
+	for i in range(-y_length+1,y_length):
+		var label = load("res://Label.tscn").instantiate(PackedScene.GEN_EDIT_STATE_INSTANCE)
+		y_labels.add_child(label)
+		label.name = "Y" + str(i)
+		label.set_owner(get_tree().get_edited_scene_root())
+
+		var y_label_pos = Vector3(y_labels_side_offset, i* y_label_spacing,0)
+		label.text = str(i)
+		label.font_size = label_size
+		label.position = y_label_pos
+
+
 	pass # Replace with function body.
 
 
@@ -49,27 +64,27 @@ func _ready():
 func _process(delta):
 	var points = PackedVector3Array()
 	
-	for i in range(0,y_length):
-		if y_labels.get_child_count() < y_length*2:
-			var label = load("res://Label.tscn").instantiate(PackedScene.GEN_EDIT_STATE_INSTANCE)
-			y_labels.add_child(label)
-			#label.global_position = pos
-			#label.text = str(i)
-			label.name = "Y + " + str(i)
-			label.set_owner(get_tree().get_edited_scene_root())
+	# for i in range(0,y_length):
+	# 	if y_labels.get_child_count() < y_length*2:
+	# 		var label = load("res://Label.tscn").instantiate(PackedScene.GEN_EDIT_STATE_INSTANCE)
+	# 		y_labels.add_child(label)
+	# 		#label.global_position = pos
+	# 		#label.text = str(i)
+	# 		label.name = "Y + " + str(i)
+	# 		label.set_owner(get_tree().get_edited_scene_root())
 	
-	var pos = Vector3(0,-y_length * (y_size/float(subdivision.y)),0)
-	var spacing = Vector3.UP * y_size/float(subdivision.y)
-	var y_count = -y_length
-	var y_label_properties = y_labels.get_children()
-	for y_point:Label3D in y_label_properties:
-		y_point.global_position = pos
-		y_point.text = str(y_count)
-		y_point.font_size = label_size
-		pos = pos + spacing
-		y_count = y_count + 1
+	# var pos = Vector3(-5,-y_length * (y_size/float(subdivision.y)),0)
+	# var spacing = Vector3.UP * y_size/float(subdivision.y)
+	# var y_count = -y_length
+	# var y_label_properties = y_labels.get_children()
+	# for y_point:Label3D in y_label_properties:
+	# 	y_point.global_position = pos
+	# 	y_point.text = str(y_count)
+	# 	y_point.font_size = label_size
+	# 	pos = pos + spacing
+	# 	y_count = y_count + 1
 		
-		pass
+	# 	pass
 	#$Labels.get_children()[0].name
 	# Floor Grid
 	DebugDraw3D.draw_box(Vector3.ZERO,Quaternion(),Vector3(x_size,200,y_size),grid_box_color,true)
