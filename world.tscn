@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://4s4mnfgiit0s"]
+[gd_scene load_steps=5 format=3 uid="uid://4s4mnfgiit0s"]
 
 [ext_resource type="Script" path="res://Generator.gd" id="1_s28q8"]
 [ext_resource type="PackedScene" uid="uid://ci3lnvdjlmohw" path="res://Label.tscn" id="2_ehu5y"]
+[ext_resource type="Script" path="res://Camera.gd" id="3_oqj3j"]
 
 [sub_resource type="Environment" id="Environment_rii35"]
 background_mode = 1
@@ -17,126 +18,126 @@ environment = SubResource("Environment_rii35")
 
 [node name="Y" type="Node3D" parent="Labels"]
 
-[node name="Y-10" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-11" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -100, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "-10"
 font_size = 1200
 
-[node name="Y-9" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-12" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -90, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "-9"
 font_size = 1200
 
-[node name="Y-8" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-13" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -80, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "-8"
 font_size = 1200
 
-[node name="Y-7" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-14" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -70, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "-7"
 font_size = 1200
 
-[node name="Y-6" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-15" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -60, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "-6"
 font_size = 1200
 
-[node name="Y-5" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-16" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -50, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "-5"
 font_size = 1200
 
-[node name="Y-4" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-17" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -40, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "-4"
 font_size = 1200
 
-[node name="Y-3" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-18" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -30, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "-3"
 font_size = 1200
 
-[node name="Y-2" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-19" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -20, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "-2"
 font_size = 1200
 
-[node name="Y-1" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-20" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -10, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "-1"
 font_size = 1200
 
-[node name="Y0" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y11" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 font_size = 1200
 
-[node name="Y1" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y12" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 10, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "1"
 font_size = 1200
 
-[node name="Y2" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y13" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 20, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "2"
 font_size = 1200
 
-[node name="Y3" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y14" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 30, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "3"
 font_size = 1200
 
-[node name="Y4" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y15" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 40, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "4"
 font_size = 1200
 
-[node name="Y5" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y16" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 50, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "5"
 font_size = 1200
 
-[node name="Y6" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y17" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 60, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "6"
 font_size = 1200
 
-[node name="Y7" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y18" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 70, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "7"
 font_size = 1200
 
-[node name="Y8" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y19" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 80, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "8"
 font_size = 1200
 
-[node name="Y9" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y20" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 90, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "9"
 font_size = 1200
 
-[node name="Y10" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y21" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 100, 0)
 modulate = Color(0.6, 0.94902, 0.286275, 1)
 text = "10"
@@ -145,126 +146,126 @@ font_size = 1200
 [node name="X" type="Node3D" parent="Labels"]
 transform = Transform3D(0.999752, 0, 0, 0, 0.999752, 0, 0, 0, 0.999752, 0, 0, 0)
 
-[node name="X-10" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X-11" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "-10"
 font_size = 1200
 
-[node name="X-9" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X-12" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "-9"
 font_size = 1200
 
-[node name="X-8" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X-13" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -80, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "-8"
 font_size = 1200
 
-[node name="X-7" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X-14" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -70, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "-7"
 font_size = 1200
 
-[node name="X-6" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X-15" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -60, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "-6"
 font_size = 1200
 
-[node name="X-5" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X-16" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "-5"
 font_size = 1200
 
-[node name="X-4" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X-17" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "-4"
 font_size = 1200
 
-[node name="X-3" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X-18" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "-3"
 font_size = 1200
 
-[node name="X-2" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X-19" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "-2"
 font_size = 1200
 
-[node name="X-1" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X-20" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "-1"
 font_size = 1200
 
-[node name="X0" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X11" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 font_size = 1200
 
-[node name="X1" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X12" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "1"
 font_size = 1200
 
-[node name="X2" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X13" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "2"
 font_size = 1200
 
-[node name="X3" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X14" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "3"
 font_size = 1200
 
-[node name="X4" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X15" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "4"
 font_size = 1200
 
-[node name="X5" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X16" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "5"
 font_size = 1200
 
-[node name="X6" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X17" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "6"
 font_size = 1200
 
-[node name="X7" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X18" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "7"
 font_size = 1200
 
-[node name="X8" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X19" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "8"
 font_size = 1200
 
-[node name="X9" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X20" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 90, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "9"
 font_size = 1200
 
-[node name="X10" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+[node name="X21" parent="Labels/X" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 100, 0, -5)
 modulate = Color(0.835294, 0.239216, 0.113725, 1)
 text = "10"
@@ -272,130 +273,133 @@ font_size = 1200
 
 [node name="Z" type="Node3D" parent="Labels"]
 
-[node name="Z-10" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z-11" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -100)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "-10"
 font_size = 1200
 
-[node name="Z-9" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z-12" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -90)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "-9"
 font_size = 1200
 
-[node name="Z-8" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z-13" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -80)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "-8"
 font_size = 1200
 
-[node name="Z-7" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z-14" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -70)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "-7"
 font_size = 1200
 
-[node name="Z-6" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z-15" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -60)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "-6"
 font_size = 1200
 
-[node name="Z-5" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z-16" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -50)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "-5"
 font_size = 1200
 
-[node name="Z-4" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z-17" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -40)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "-4"
 font_size = 1200
 
-[node name="Z-3" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z-18" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -30)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "-3"
 font_size = 1200
 
-[node name="Z-2" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z-19" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -20)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "-2"
 font_size = 1200
 
-[node name="Z-1" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z-20" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -10)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "-1"
 font_size = 1200
 
-[node name="Z0" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z11" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 0)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 font_size = 1200
 
-[node name="Z1" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z12" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 10)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "1"
 font_size = 1200
 
-[node name="Z2" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z13" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 20)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "2"
 font_size = 1200
 
-[node name="Z3" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z14" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 30)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "3"
 font_size = 1200
 
-[node name="Z4" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z15" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 40)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "4"
 font_size = 1200
 
-[node name="Z5" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z16" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 50)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "5"
 font_size = 1200
 
-[node name="Z6" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z17" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 60)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "6"
 font_size = 1200
 
-[node name="Z7" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z18" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 70)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "7"
 font_size = 1200
 
-[node name="Z8" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z19" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 80)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "8"
 font_size = 1200
 
-[node name="Z9" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z20" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 90)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "9"
 font_size = 1200
 
-[node name="Z10" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+[node name="Z21" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 100)
 modulate = Color(0.235294, 0.470588, 0.964706, 1)
 text = "10"
 font_size = 1200
 
-[node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(-0.997058, 0.0323402, -0.0694987, 0, 0.906645, 0.421895, 0.0766548, 0.420653, -0.903977, 8.08734, 61.4453, -70.6788)
+[node name="CameraPivot" type="Node3D" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="CameraPivot"]
+transform = Transform3D(-0.997058, 0.0323402, -0.0694987, 0, 0.906645, 0.421894, 0.0766548, 0.420653, -0.903977, 8.08734, 61.4453, -70.6788)
+script = ExtResource("3_oqj3j")
