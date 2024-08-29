@@ -39,22 +39,86 @@ extends Node3D
 @onready var a = $A
 @onready var b = $B
 
+# XLabels
+@onready var x_labels_parallel_side_offset = -5
+@onready var x_label_spacing = x_size/float(subdivision.x)
+
 # YLabels
-@onready var y_labels_side_offset = -5
+@onready var y_labels_parallel_side_offset = -5
 @onready var y_label_spacing = y_size/float(subdivision.y)
+
+# ZLabels
+@onready var z_labels_parallel_side_offset = -5
+@onready var z_label_spacing = y_size/float(subdivision.y)
+
+
+func labels_initializer(direction:Vector3,color,parallel_side_offset):
+	#We add this for the ready call to start the labels for each axis
+	if abs(direction) == Vector3.RIGHT:
+		#X labels
+
+		#Clears the residual labels before adding
+		for clear_label in x_labels.get_children():
+			clear_label.queue_free()
+		for i in range(-x_length+1,x_length):
+			var label = load("res://Label.tscn").instantiate(PackedScene.GEN_EDIT_STATE_INSTANCE)
+			x_labels.add_child(label)
+			label.name = "X" + str(i)
+			label.set_owner(get_tree().get_edited_scene_root())
+
+			var x_label_pos = Vector3(i* x_label_spacing,0 ,x_labels_parallel_side_offset)
+			label.text = str(i)
+			label.font_size = label_size
+			label.position = x_label_pos
+
+			label.modulate = color
+
+	elif abs(direction) == Vector3.UP:
+		#Y labels
+
+		#Clears the residual labels before adding 
+		for clear_label in y_labels.get_children():
+			clear_label.queue_free()
+		for i in range(-y_length+1,y_length):
+			var label = load("res://Label.tscn").instantiate(PackedScene.GEN_EDIT_STATE_INSTANCE)
+			y_labels.add_child(label)
+			label.name = "Y" + str(i)
+			label.set_owner(get_tree().get_edited_scene_root())
+
+			var y_label_pos = Vector3(y_labels_parallel_side_offset, i* y_label_spacing,0)
+			label.text = str(i)
+			label.font_size = label_size
+			label.position = y_label_pos
+
+			label.modulate = color
+
+	elif abs(direction) == Vector3.BACK:
+		#Z labels
+
+		#Clears the residual labels before adding 
+		for clear_label in z_labels.get_children():
+			clear_label.queue_free()
+		for i in range(-z_length+1,z_length):
+			var label = load("res://Label.tscn").instantiate(PackedScene.GEN_EDIT_STATE_INSTANCE)
+			z_labels.add_child(label)
+			label.name = "Z" + str(i)
+			label.set_owner(get_tree().get_edited_scene_root())
+
+			var z_label_pos = Vector3(0,z_labels_parallel_side_offset, i* z_label_spacing)
+			label.text = str(i)
+			label.font_size = label_size
+			label.position = z_label_pos
+
+			label.modulate = color
+
+
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	for i in range(-y_length+1,y_length):
-		var label = load("res://Label.tscn").instantiate(PackedScene.GEN_EDIT_STATE_INSTANCE)
-		y_labels.add_child(label)
-		label.name = "Y" + str(i)
-		label.set_owner(get_tree().get_edited_scene_root())
-
-		var y_label_pos = Vector3(y_labels_side_offset, i* y_label_spacing,0)
-		label.text = str(i)
-		label.font_size = label_size
-		label.position = y_label_pos
+	labels_initializer(Vector3.UP,y_color,y_labels_parallel_side_offset)
+	labels_initializer(Vector3.BACK,z_color,z_labels_parallel_side_offset)
+	labels_initializer(Vector3.RIGHT,x_color,x_labels_parallel_side_offset)
 
 
 	pass # Replace with function body.

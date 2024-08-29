@@ -17,113 +17,322 @@ environment = SubResource("Environment_rii35")
 
 [node name="Y" type="Node3D" parent="Labels"]
 
-[node name="Y + -10" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-11" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -100, 0)
 text = "-10"
 font_size = 1200
 
-[node name="Y + -9" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-12" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -90, 0)
 text = "-9"
 font_size = 1200
 
-[node name="Y + -8" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-13" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -80, 0)
 text = "-8"
 font_size = 1200
 
-[node name="Y + -7" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-14" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -70, 0)
 text = "-7"
 font_size = 1200
 
-[node name="Y + -6" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-15" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -60, 0)
 text = "-6"
 font_size = 1200
 
-[node name="Y + -5" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-16" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -50, 0)
 text = "-5"
 font_size = 1200
 
-[node name="Y + -4" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-17" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -40, 0)
 text = "-4"
 font_size = 1200
 
-[node name="Y + -3" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-18" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -30, 0)
 text = "-3"
 font_size = 1200
 
-[node name="Y + -2" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-19" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -20, 0)
 text = "-2"
 font_size = 1200
 
-[node name="Y + -1" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y-20" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, -10, 0)
 text = "-1"
 font_size = 1200
 
-[node name="Y + 0" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y11" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, 0)
 font_size = 1200
 
-[node name="Y + 1" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y12" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 10, 0)
 text = "1"
 font_size = 1200
 
-[node name="Y + 2" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y13" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 20, 0)
 text = "2"
 font_size = 1200
 
-[node name="Y + 3" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y14" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 30, 0)
 text = "3"
 font_size = 1200
 
-[node name="Y + 4" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y15" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 40, 0)
 text = "4"
 font_size = 1200
 
-[node name="Y + 5" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y16" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 50, 0)
 text = "5"
 font_size = 1200
 
-[node name="Y + 6" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y17" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 60, 0)
 text = "6"
 font_size = 1200
 
-[node name="Y + 7" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y18" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 70, 0)
 text = "7"
 font_size = 1200
 
-[node name="Y + 8" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y19" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 80, 0)
 text = "8"
 font_size = 1200
 
-[node name="Y + 9" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y20" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 90, 0)
 text = "9"
 font_size = 1200
 
-[node name="Y + 10" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
+[node name="Y21" parent="Labels/Y" instance=ExtResource("2_ehu5y")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 100, 0)
 text = "10"
 font_size = 1200
 
 [node name="X" type="Node3D" parent="Labels"]
+transform = Transform3D(0.999752, 0, 0, 0, 0.999752, 0, 0, 0, 0.999752, 0, 0, 0)
+
+[node name="X-11" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100, 0, -5)
+text = "-10"
+font_size = 1200
+
+[node name="X-12" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90, 0, -5)
+text = "-9"
+font_size = 1200
+
+[node name="X-13" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -80, 0, -5)
+text = "-8"
+font_size = 1200
+
+[node name="X-14" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -70, 0, -5)
+text = "-7"
+font_size = 1200
+
+[node name="X-15" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -60, 0, -5)
+text = "-6"
+font_size = 1200
+
+[node name="X-16" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50, 0, -5)
+text = "-5"
+font_size = 1200
+
+[node name="X-17" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40, 0, -5)
+text = "-4"
+font_size = 1200
+
+[node name="X-18" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30, 0, -5)
+text = "-3"
+font_size = 1200
+
+[node name="X-19" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -5)
+text = "-2"
+font_size = 1200
+
+[node name="X-20" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -5)
+text = "-1"
+font_size = 1200
+
+[node name="X11" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -5)
+font_size = 1200
+
+[node name="X12" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -5)
+text = "1"
+font_size = 1200
+
+[node name="X13" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -5)
+text = "2"
+font_size = 1200
+
+[node name="X14" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -5)
+text = "3"
+font_size = 1200
+
+[node name="X15" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 0, -5)
+text = "4"
+font_size = 1200
+
+[node name="X16" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50, 0, -5)
+text = "5"
+font_size = 1200
+
+[node name="X17" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, -5)
+text = "6"
+font_size = 1200
+
+[node name="X18" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70, 0, -5)
+text = "7"
+font_size = 1200
+
+[node name="X19" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80, 0, -5)
+text = "8"
+font_size = 1200
+
+[node name="X20" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 90, 0, -5)
+text = "9"
+font_size = 1200
+
+[node name="X21" parent="Labels/X" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 100, 0, -5)
+text = "10"
+font_size = 1200
 
 [node name="Z" type="Node3D" parent="Labels"]
+
+[node name="Z-11" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -100)
+text = "-10"
+font_size = 1200
+
+[node name="Z-12" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -90)
+text = "-9"
+font_size = 1200
+
+[node name="Z-13" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -80)
+text = "-8"
+font_size = 1200
+
+[node name="Z-14" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -70)
+text = "-7"
+font_size = 1200
+
+[node name="Z-15" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -60)
+text = "-6"
+font_size = 1200
+
+[node name="Z-16" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -50)
+text = "-5"
+font_size = 1200
+
+[node name="Z-17" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -40)
+text = "-4"
+font_size = 1200
+
+[node name="Z-18" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -30)
+text = "-3"
+font_size = 1200
+
+[node name="Z-19" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -20)
+text = "-2"
+font_size = 1200
+
+[node name="Z-20" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, -10)
+text = "-1"
+font_size = 1200
+
+[node name="Z11" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 0)
+font_size = 1200
+
+[node name="Z12" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 10)
+text = "1"
+font_size = 1200
+
+[node name="Z13" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 20)
+text = "2"
+font_size = 1200
+
+[node name="Z14" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 30)
+text = "3"
+font_size = 1200
+
+[node name="Z15" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 40)
+text = "4"
+font_size = 1200
+
+[node name="Z16" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 50)
+text = "5"
+font_size = 1200
+
+[node name="Z17" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 60)
+text = "6"
+font_size = 1200
+
+[node name="Z18" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 70)
+text = "7"
+font_size = 1200
+
+[node name="Z19" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 80)
+text = "8"
+font_size = 1200
+
+[node name="Z20" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 90)
+text = "9"
+font_size = 1200
+
+[node name="Z21" parent="Labels/Z" instance=ExtResource("2_ehu5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5, 100)
+text = "10"
+font_size = 1200
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(-0.997058, 0.0323402, -0.0694987, 0, 0.906645, 0.421895, 0.0766548, 0.420653, -0.903977, 8.08734, 61.4453, -70.6788)
